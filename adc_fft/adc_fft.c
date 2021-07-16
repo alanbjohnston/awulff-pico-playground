@@ -70,7 +70,8 @@ int main() {
     }
 
     float max_freq = freqs[max_idx];
-    printf("Greatest Frequency Component: %0.1f Hz\n",max_freq);
+    printf("Greatest Frequency Component: %0.1f Hz Power: %f\n",max_freq, max_power);
+    sleep_ms(2000);
   }
 
   // should never get here
